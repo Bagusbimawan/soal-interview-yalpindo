@@ -1,28 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# The Rolling Stones Events Calendar
 
-## Getting Started
+This project was created as part of a technical interview assignment by **Bagus Bimawan Sembodo**. It's a responsive web application built with Next.js and TailwindCSS that showcases The Rolling Stones events calendar.
 
-First, run the development server:
+## 🎸 Project Overview
 
+The application features a modern, macOS-inspired interface with a calendar system that displays The Rolling Stones events. It includes:
+
+- Interactive calendar with event highlighting
+- Event details display
+- macOS-style window design
+- Fully responsive layout
+- Month/Year selection modal
+- Dynamic event loading
+
+## 📅 Available Events
+
+Currently, there are two events scheduled for October 2023:
+
+1. **October 15, 2023**
+   - Special performance event
+   - Features guest speakers
+   - Watchlist registration available
+
+2. **October 25, 2023**
+   - Main concert event
+   - Includes meet and greet opportunity
+   - Limited ticket availability
+
+## 🚀 Technical Features
+
+- **Frontend**: Next.js with TypeScript
+- **Styling**: TailwindCSS
+- **State Management**: React Hooks
+- **API Integration**: Axios for data fetching
+- **Responsive Design**: Mobile-first approach
+- **UI Components**: Custom-built calendar and modal systems
+
+## 🛠️ Implementation Details
+
+- Custom calendar implementation with event highlighting
+- macOS-inspired UI elements
+- Dynamic event fetching from API
+- Responsive layout for all screen sizes
+- Interactive date selection
+- Modal-based month/year selection
+- Event details display with speaker information
+
+## 💻 Getting Started
+
+1. Clone the repository
+```bash
+git clone [repository-url]
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## 🎨 Design Features
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Clean, minimal interface
+- macOS-inspired window design
+- Responsive layout
+- Interactive elements
+- Modern color scheme
+- Smooth animations and transitions
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## 📱 Responsive Behavior
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Mobile-first design approach
+- Adapts to various screen sizes
+- Maintains functionality across devices
+- Optimized for both touch and mouse interactions
+
+## 🔧 Technical Interview Assignment
+
+This project was completed as part of a technical interview assignment, demonstrating:
+
+- Frontend development skills
+- React/Next.js proficiency
+- UI/UX design capabilities
+- Responsive design implementation
+- API integration
+- Clean code practices
+- Attention to detail
+
+---
+
+Created by Bagus Bimawan Sembodo as part of a technical interview assignment.
 
 ## Learn More
 
